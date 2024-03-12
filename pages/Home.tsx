@@ -1,4 +1,3 @@
-import { createURL } from "expo-linking";
 import { Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function Home() {
@@ -10,7 +9,7 @@ export default function Home() {
     return (
         <View style={styles.container}>
             <TouchableOpacity onPress={changePage} style={styles.button}>
-                <Text style={{ color: 'white' }}>Deep Linking!</Text>
+                <Text style={{ color: 'white' }}>About Page Deep Linking!</Text>
             </TouchableOpacity>
         </View>
     );
